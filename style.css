@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main{
+    background-image: url(header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+header > nav > ul {
+    display: flex;
+ 
+    
+}
+header > nav > ul > li {
+     padding: 1.1rem;
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    justify-content: space-evenly;
+
+ 
+    
+}
+
+header > nav > ul > li:hover{
+    color: green;
+}
+
+.logo{
+    display: flex;
+}
+.logo > svg{
+    height: 3rem;
+    width: 3rem;
+    fill: white;
+}
+
+.logo > h2{
+    padding: 13px;
+    margin-left: -16px;
+}
+
+
+
+span > hr{
+    background-color: grey;
+    height: 2.3px;
+    border: none;
+}
+
+h1{
+    font-size: 5.8rem;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    display: flex;
+    margin: 12px auto;
+    background-color: green;
+    padding: 10px;
+    border: none;
+    border-radius: 22px;
+
+    
+}
+
+button:hover{
+    background-color: rgb(14, 74, 14);
+}
+
+.heroContainer{
+            margin-top: 30vh;
+}
